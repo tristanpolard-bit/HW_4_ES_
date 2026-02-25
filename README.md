@@ -662,5 +662,5 @@ Traceback (most recent call last):
         content_or_path=path_or_buffer, storage_options=storage_options
     )
   File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/pandas/io/excel/_base.py", line 1452, in inspect_excel_format
-    with get_handle(
+    with get_handle( 
     
