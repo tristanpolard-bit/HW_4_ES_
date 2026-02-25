@@ -9,7 +9,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> import pandas as pd
 ... 
 ... df = pd.read_excel("/Users/tristanpolard/Downloads/HW4_EchoSurveyData.xlsx"\
-)
+) 
 ... print(df.head())
 ... print(df.columns)
 ... 
