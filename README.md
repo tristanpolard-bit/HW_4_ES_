@@ -663,21 +663,4 @@ Traceback (most recent call last):
     )
   File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/pandas/io/excel/_base.py", line 1452, in inspect_excel_format
     with get_handle(
-         ~~~~~~~~~~^
-        content_or_path, "rb", storage_options=storage_options, is_text=False
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ) as handle:
-    ^
-  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/site-packages/pandas/io/common.py", line 935, in get_handle
-    handle = open(handle, ioargs.mode)
-FileNotFoundError: [Errno 2] No such file or directory: '/content/HW4_EchoSurveyData.xlsx'
->>> import os
-... print(os.listdir('/content'))
-... 
-Traceback (most recent call last):
-  File "<python-input-28>", line 2, in <module>
-    print(os.listdir('/content'))
-          ~~~~~~~~~~^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/content'
->>> 
-
+    
